@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+  color: white;
+    text-align: center;
+    padding: 1em 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(images/shaala.jpg);
+
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.attractions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.attraction {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.attraction img {
+    max-width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s; /* Smooth transition for image */
+}
+
+.attraction:hover img {
+    transform: scale(1.05); /* Scale image on hover */
+}
+
+.attraction:hover {
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2); /* Increase shadow on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    
+   
+
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(images/shaala.jpg);
+
+    background-size: cover;
+    background-position: center;
+}
